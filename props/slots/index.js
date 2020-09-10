@@ -1,7 +1,11 @@
 class App extends React.Component {
     render() {
         return (
-            <Slots />
+            <Slots 
+                s1 = "a"
+                s2 = "a"
+                s3 = "a"   
+            />
         );
     }
 }

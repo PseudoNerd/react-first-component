@@ -1,10 +1,11 @@
 class Slots extends React.Component {
     render() {
-        let char = Math.floor(Math.random()*3 + 1);
+        console.log(this.props);
+        const {s1,s2,s3} = this.props;
+        const win = (s1===s2) && (s2===s3);
         return (
-            <div>
-                {char}
-                
+            <div>  
+                <h1>{win ? 'w' : 'l'}</h1>
             </div>
         )
     }

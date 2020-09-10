@@ -6,9 +6,11 @@
  
  class Hi extends React.Component {
 	 render () {
+		var mood = getMood();
 		 return (
 			 <div>
-				 <h1>Mood is : {getMood()}</h1>
+				<h1>Mood is : {mood}</h1>
+		 		<p>{ mood === "sad" ? "why you sad":"awesome" }</p>
 			 </div>
 		 );
 	 }

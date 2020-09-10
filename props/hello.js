@@ -1,7 +1,8 @@
-class greet extends React.Component {
+class Hello extends React.Component {
     render() {
+        const props = this.props;
         return (
-            <h1>hello from the other side</h1>
-        );
+        <h1>Hi {props.to} from {props.from}</h1>
+        ) 
     }
 }

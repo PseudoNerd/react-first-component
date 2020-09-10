@@ -1,11 +1,13 @@
+
 class App extends React.Component {
-    render () {
+    render() {
         return (
             <div>
-                <greet />
+                <h1>Hi</h1>
+                <Hello to = "Rishu" from = "Tanmay" />
             </div>
-        );
+        )
     }
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));

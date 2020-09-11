@@ -1,7 +1,10 @@
-class App extends React.Components {
+class App extends React.Component {
     render() {
         return (
-            <Friends />
+            <div>
+                <Friends name = "Rishu" hobbies = {['dancing', 'coding']} from= "Tanmay" />
+                <Friends name = "Rishu" hobbies = {['dancing', 'coding']} /> 
+            </div>
         )
     }
 }

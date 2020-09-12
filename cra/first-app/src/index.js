@@ -7,5 +7,4 @@ console.log(choice(fruits));
 
 console.log(fruits);
 
-
 console.log(remove(fruits,choice(fruits)));
